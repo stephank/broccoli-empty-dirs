@@ -1,0 +1,22 @@
+{
+    "name": "broccoli-empty-dirs",
+    "version": "0.1.0",
+    "description": "Remove empty directories",
+    "license": "MIT",
+    "author": "Stéphan Kochen <stephan@kochen.nl>",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/stephank/broccoli-empty-dirs.git"
+    },
+    "keywords": [
+        "broccoli-plugin"
+    ],
+    "devDependencies": {
+        "mkdirp": "0.4",
+        "walk-sync": "0.1",
+        "promise-map-series": "0.2",
+        "broccoli-writer": "0.1",
+        "broccoli-kitchen-sink-helpers": "0.2"
+    }
+}
